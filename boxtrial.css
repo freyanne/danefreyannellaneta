@@ -1,0 +1,43 @@
+body{
+	margin: auto;
+}
+
+header, footer{
+	border: solid 1px #191919;
+	height: 20px;
+	background-color: #8B008B;
+	color: white;
+	text-align: center;
+	
+}
+
+.group:before, .group:after{
+	content: "";
+	display: table;
+}
+
+.group:after{
+	clear: both;
+}
+
+.group{
+	clear: both;
+}
+
+section{ 	
+	float: left;
+	width: 413.33px;
+	left-margin: 30px;
+	right-margin: 30px;
+	margin: 20px;
+	height: 200px;
+	border: solid 1px #191919;
+	background-color: #8B008B;
+	color: white;
+	text-align: center;
+
+}
+
+footer{
+	/* clear: both; */
+}

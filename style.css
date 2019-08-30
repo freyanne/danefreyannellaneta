@@ -1,0 +1,28 @@
+#left-nav{
+	background-color: gray;
+	width: 30%;
+	height: 200px;
+	border: 2px solid #191919;
+	border-radius: 8px;
+}
+
+#left-nav nav ul{
+	list-style: none;
+}
+
+#left-nav nav ul li{
+	line-height: 1;
+	border: solid 1px #c0c0c0;
+	border-radius: 4px;
+	margin-top: 10px;
+	width: 40%;
+	padding: 6px 0px 6px 0px;
+	font-size: 18px;
+	text-align: center;
+	background-color:#CCC;
+}
+
+#left-nav nav ul li a{
+	text-decoration: none;
+	color: #1c1c1c;
+}
